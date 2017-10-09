@@ -114,7 +114,7 @@ def print_tree(node, level):
         print_tree(n, level + 2)
         
 
-metadata, traindata = read_data("stock.data")
+metadata, traindata = read_data("example.data")
 
 data = np.array(traindata)
 
